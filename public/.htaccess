@@ -1,0 +1,10 @@
+RewriteEngine On
+
+
+#Redirect all to index.php except certain filetypes (static and .ajax.php, .script.php) and adminer.php and routerAjax.php
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ /index.php?path=$1 [NC,QSA]
+RewriteCond %{REQUEST_URI} !(\.png|\.jpg|\.gif|\.ico|\.jpeg|\.bmp|\.css|\.js|\.json|\.ajax.php|\.script.php|routerAjax.php)$
+#RewriteCond %{REQUEST_URI} !^/adminer.php
+RewriteRule (.*) router.php?path=$1 [NC,QSA]
