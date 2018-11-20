@@ -13,7 +13,7 @@ $(document).ready(function() {
             $.when(dfdHistory).done(function() {
                 const history = getData('history');
                 createAccountsTable(accounts, history);
-
+                buildGraph(history);
                 $('#overlay').hide();
             });
             //const accounts = getData('accounts');

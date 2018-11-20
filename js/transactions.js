@@ -129,7 +129,7 @@ function createTransactionsTable(transactions) {
       tbl.DataTable().clear().destroy();
     }
 	
-	const accounts = getData('accounts-ordered');
+	const accounts = getData('accounts');
 	const account_id = getData('account-id');
 	const account = accounts.filter(x => x.id == getData('account-id'))[0];
 	
@@ -182,7 +182,7 @@ function createTransactionsTable(transactions) {
     $.each(transactions,function(i,row) {
         let value = '';
         console.log(row.debit, account_id);
-        if (parseInt(row.debit) === parseInt(account_id)) value = '<span style="color:darkred"> (' + row.value + ')</span>';
+        if ((parseInt(row.debit) === parseInt(account_id) & account.debit_effect === false )|| (parseInt(row.credit) === parseInt(account_id) & account.debit_effect === true )) value = '<span style="color:red"> (' + row.value + ')</span>';
         else value = row.value;
         
         tblData.push([

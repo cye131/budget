@@ -35,7 +35,6 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
         echo "</title>
     <link rel=\"icon\" type=image/ico href=\"/static/favicon.ico\"/>
     <meta name=description content=\"Content.\" />
-    <meta name=keywords content=\"financial contagion, financial contagion index, cross-asset contagion, cross-asset contagion\" />
     
     <link rel=\"stylesheet\" href=\"static/style.css\">
     <link rel=\"stylesheet\" href=\"static/bootstrap.min.css\">
@@ -67,9 +66,9 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
 -->
 
     ";
-        // line 42
+        // line 41
         $this->displayBlock('staticlinks', $context, $blocks);
-        // line 43
+        // line 42
         echo "    ";
         echo ($context["pageJS"] ?? null);
         echo "
@@ -79,7 +78,7 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
         <div class=\"container-fluid\" style=\"height:10px;background-color:rgba(10, 24, 66,1);margin-bottom:.5rem\"></div>
         <div class=\"container\">
             <div class=\"row\">
-                <h4 style=\"text-align:left\">Assetcontagion.com</h4>
+                <h4 style=\"text-align:left\">Budget</h4>
             </div>
         </div>
         
@@ -92,7 +91,7 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
                 <div class=\"navbar-collapse collapse\" id=\"collapsingNavbarLg\">
                     <ul class=\"navbar-nav\">
                         <li class=\"nav-item\">
-                            <a class=\"nav-link\" href=\"/\">Budget</a>
+                            <a class=\"nav-link\" href=\"/\">Accounts</a>
                         </li>
                         <li class=\"nav-item dropdown\">
                             <a class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\" href=\"/regions\">Ledger</a>
@@ -108,9 +107,9 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
         </nav>
     </header>    
     ";
-        // line 78
+        // line 77
         $this->displayBlock('content', $context, $blocks);
-        // line 80
+        // line 79
         echo "
 
 <footer class=\"page-footer font-small pt-4 mt-5\" style=\"background: rgba(10, 24, 66,1);\">
@@ -177,7 +176,7 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
 
 <script>
   ";
-        // line 145
+        // line 144
         echo ($context["bodyScript"] ?? null);
         echo "
 </script>
@@ -187,15 +186,15 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
 </html>";
     }
 
-    // line 42
+    // line 41
     public function block_staticlinks($context, array $blocks = array())
     {
     }
 
-    // line 78
+    // line 77
     public function block_content($context, array $blocks = array())
     {
-        // line 79
+        // line 78
         echo "    ";
     }
 
@@ -211,7 +210,7 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
 
     public function getDebugInfo()
     {
-        return array (  199 => 79,  196 => 78,  191 => 42,  181 => 145,  114 => 80,  112 => 78,  73 => 43,  71 => 42,  34 => 8,  25 => 1,);
+        return array (  198 => 78,  195 => 77,  190 => 41,  180 => 144,  113 => 79,  111 => 77,  72 => 42,  70 => 41,  34 => 8,  25 => 1,);
     }
 
     public function getSourceContext()
@@ -226,7 +225,6 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
     <title>{{ title|e }}</title>
     <link rel=\"icon\" type=image/ico href=\"/static/favicon.ico\"/>
     <meta name=description content=\"Content.\" />
-    <meta name=keywords content=\"financial contagion, financial contagion index, cross-asset contagion, cross-asset contagion\" />
     
     <link rel=\"stylesheet\" href=\"static/style.css\">
     <link rel=\"stylesheet\" href=\"static/bootstrap.min.css\">
@@ -265,7 +263,7 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
         <div class=\"container-fluid\" style=\"height:10px;background-color:rgba(10, 24, 66,1);margin-bottom:.5rem\"></div>
         <div class=\"container\">
             <div class=\"row\">
-                <h4 style=\"text-align:left\">Assetcontagion.com</h4>
+                <h4 style=\"text-align:left\">Budget</h4>
             </div>
         </div>
         
@@ -278,7 +276,7 @@ class __TwigTemplate_cd94d1b51a2b14c4b87ef41d1e2361b7633e8795e098f5c484526039430
                 <div class=\"navbar-collapse collapse\" id=\"collapsingNavbarLg\">
                     <ul class=\"navbar-nav\">
                         <li class=\"nav-item\">
-                            <a class=\"nav-link\" href=\"/\">Budget</a>
+                            <a class=\"nav-link\" href=\"/\">Accounts</a>
                         </li>
                         <li class=\"nav-item dropdown\">
                             <a class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\" href=\"/regions\">Ledger</a>
